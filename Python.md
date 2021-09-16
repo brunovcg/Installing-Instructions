@@ -10,7 +10,7 @@ echo $SHELL
 # SE FOR <bash>
 code ~/.bashrc
 
-###adicione isso no aquivo
+#adicione isso no aquivo
 . $HOME/.asdf/asdf.sh
 
 . $HOME/.asdf/completions/asdf.bash
@@ -22,7 +22,7 @@ source ~/.bashrc
 
 code ~/.zshrc
 
-###adicione isso no aquivo
+#adicione isso no aquivo
 . $HOME/.asdf/asdf.sh
 
 plugins=(
