@@ -10,19 +10,19 @@ echo $SHELL
 # SE FOR <bash>
 code ~/.bashrc
 
-    <adicione isso no aquivo>
+###adicione isso no aquivo
 . $HOME/.asdf/asdf.sh
 
 . $HOME/.asdf/completions/asdf.bash
 
-    <volte ao terminal>
+###volte ao terminal
 source ~/.bashrc
 
 # SE FOR <Zsh>
 
 code ~/.zshrc
 
-    <adicione isso no aquivo>
+###adicione isso no aquivo
 . $HOME/.asdf/asdf.sh
 
 plugins=(
@@ -36,7 +36,7 @@ plugins=(
   autopep8
   )
 
-    <volte ao terminal>
+###volte ao terminal
 source ~/.zshrc
 
 # ADSF
