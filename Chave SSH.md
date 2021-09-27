@@ -22,7 +22,17 @@ Port 443
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/id_rsa
 
+Host bitbucket.org
+Hostname ssh.bitbucket.org
+User git
+Port 443
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa_wipro
+
+
+
 
 #PARA ADICIONAR AO CONFIAVEIS
 ssh -T git@gitlab.com
 ssh -T git@github.com
+ssh -T git@wipro.bitbucket.or
