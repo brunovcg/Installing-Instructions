@@ -14,7 +14,7 @@ heroku login
 
 ## Criar um porjeto no HEORU
 
-heroku create <nome-unico-do-projeto>
+heroku create < nome-unico-do-projeto >
 
 
 ## Instalar o Guicorn
